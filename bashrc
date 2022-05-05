@@ -16,7 +16,7 @@ LGREEN="\[\e[1;32m\]"
 LBLUE="\[\e[1;34m\]"
 BROWN="\[\e[0;33m\]"
 
-export PS1="$BROWN[$CYAN\u-\h$WHITE:$LBLUE\W$BROWN]$WHITE$ "
+export PS1="$BROWN[$CYAN\u@\h$WHITE:$LBLUE\W$BROWN]$WHITE$ "
 
 export PATH=$HOME/.local/bin:$PATH
 export EDITOR=vim
