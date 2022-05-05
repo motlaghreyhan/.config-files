@@ -25,7 +25,7 @@ export LS_OPTIONS='--color=auto'
 export CLICOLOR='Yes'
 export LS_COLORS='di=36:ln=36:so=31:pi=33:ex=32:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43'
 
-eval "$(/opt/homebrew/bin/brew shellenv)"
+#eval "$(/opt/homebrew/bin/brew shellenv)"
 
 PATH=$PATH:/home/rmotlagh/bin:/usr/local/homebrew
 export PATH
